@@ -3,7 +3,7 @@ import jakarta.persistence.*;
 
 
 @Entity
-@Table(name = "cliente")
+@DiscriminatorValue("CLIENTE")
 public class Cliente extends Persona {
     @Column(unique = true, nullable = false)
     private String clienteId;

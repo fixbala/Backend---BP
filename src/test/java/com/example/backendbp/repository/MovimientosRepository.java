@@ -1,6 +1,6 @@
 package com.example.backendbp.repository;
 
-import com.example.backendbp.cuenta.entity.Movimientos;
+import com.example.backendbp.entity.Movimientos;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

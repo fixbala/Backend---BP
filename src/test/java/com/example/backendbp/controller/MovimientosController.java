@@ -1,7 +1,8 @@
 package com.example.backendbp.controller;
 
-import com.example.backendbp.cuenta.entity.Movimientos;
-import com.example.backendbp.cuenta.repository.MovimientosRepository;
+
+import com.example.backendbp.entity.Movimientos;
+import com.example.backendbp.repository.MovimientosRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
